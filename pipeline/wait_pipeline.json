@@ -1,0 +1,17 @@
+{
+	"name": "wait_pipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait 5sec",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 5
+				}
+			}
+		],
+		"annotations": []
+	}
+}
